@@ -1,0 +1,262 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tl_main"
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" >
+
+    <TableRow
+        android:id="@+id/tr_first"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+
+        <EditText
+            android:id="@+id/tvResult"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:background="#808080"
+            android:ems="10"
+            android:layout_span="4"
+            android:inputType=""
+            android:textSize="30dp"
+            android:text="" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr_second"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <Button
+            android:id="@+id/btnAC"
+            android:onClick="btnOnClickAC"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="AC" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:onClick="btnOnClickOperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_weight="0"
+            android:backgroundTint="#FFA500"
+            android:text="/" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr_third"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <Button
+            android:id="@+id/btn7"
+            android:onClick="btnOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:onClick="btnOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:onClick="btnOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/btnTimes"
+            android:onClick="btnOnClickOperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#FFA500"
+            android:text="*" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr_fourth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <Button
+            android:id="@+id/btn4"
+            android:onClick="btnOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:onClick="btnOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:onClick="btnOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:onClick="btnOnClickOperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#FFA500"
+            android:text="-" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr_fifth"
+        android:onClick="btnOnClick"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="btnOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:onClick="btnOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:onClick="btnOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:onClick="btnOnClickOperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:backgroundTint="#FFA500"
+            android:text="+" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tr_sixth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <Button
+            android:id="@+id/btn0"
+            android:onClick="btnOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btnDot"
+            android:onClick="btnOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_weight="0"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="@color/black"
+            android:text="." />
+
+        <Button
+            android:id="@+id/btnEquals"
+            android:onClick="btnOnClickEqual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_weight="0"
+            android:backgroundTint="#FFA500"
+            android:text="=" />
+
+        <!--  android:layout_column="3"-->
+    </TableRow>
+</TableLayout>
